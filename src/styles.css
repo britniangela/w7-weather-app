@@ -1,14 +1,30 @@
 body {
-  background: #fffae6;
+  background-color: #fffae6;
   font-family: "Signika Negative", sans-serif;
   font-weight: lighter;
 }
 
 .app-container {
-  background: #faf9f0;
+  background-color: #faf9f0;
   max-width: 600px;
   border-radius: 10px;
-  box-shadow: 10px 10px 22px 2px rgba(0, 0, 0, 0.34);
+  box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.34);
   margin: 30px auto;
   padding: 20px;
+}
+
+.search-form-input {
+  background-color: #e4e2da;
+  width: 75%;
+  border: none;
+  border-radius: 12px;
+  padding: 18px;
+  font-size: 16px;
+}
+.search-form-button {
+  background-color: #e4e2da;
+  border-radius: 12px;
+  border: none;
+  padding: 18px;
+  font-size: 16px;
 }
