@@ -13,8 +13,17 @@ body {
   padding: 20px;
 }
 
+header {
+  border-bottom: 1px solid #e4e4e4;
+  padding: 0 0 20px 0;
+}
+
+a {
+  color: #885df1;
+}
+
 .search-form-input {
-  background-color: #e4e2da;
+  background-color: #dcecc3;
   width: 75%;
   border: none;
   border-radius: 12px;
@@ -22,9 +31,18 @@ body {
   font-size: 16px;
 }
 .search-form-button {
-  background-color: #e4e2da;
+  background-color: #d7e9b9;
   border-radius: 12px;
   border: none;
-  padding: 18px;
+  padding: 18px 20px 18px 20px;
   font-size: 16px;
+  margin-left: 15px;
+  color: #757575;
+}
+
+footer {
+  border-top: 1px solid #e4e4e4;
+  padding: 20px 0 0 0;
+  text-align: center;
+  color: #ababab;
 }
