@@ -1,6 +1,6 @@
 body {
   background-color: #fffae6;
-  font-family: "Signika Negative", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: lighter;
 }
 
@@ -16,6 +16,10 @@ body {
 header {
   border-bottom: 1px solid #e4e4e4;
   padding: 0 0 20px 0;
+}
+
+main {
+  padding: 30px 0;
 }
 
 a {
@@ -38,6 +42,33 @@ a {
   font-size: 16px;
   margin-left: 15px;
   color: #757575;
+}
+
+.app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-city {
+  margin: 0;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.app-details {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #a8a7b4;
+}
+
+.weather-details {
+  color: #fb9378;
+  font-weight: 500;
+}
+
+.app-temperature {
+  font-weight: 300;
 }
 
 footer {
