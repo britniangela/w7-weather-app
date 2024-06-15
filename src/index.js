@@ -1,3 +1,14 @@
+function getCelciusTemperature(response) {
+  celsiusTemperature = document.querySelector(".app-temperature-unit");
+  let celsiusTemp = Math.round(
+    ((response.data.temperature.current - 32) * 5) / 9
+  );
+  celsiusTemperature.innerHTML = celsiusTemp;
+}
+
+let celsiusTemperature = document.querySelector("#app-temperature-unit");
+celsiusTemperature.addEventListener("click", getCelciusTemperature);
+
 function getWeather(response) {
   let temperatureElement = document.querySelector("#app-temperature-value");
   let temperature = Math.round(response.data.temperature.current);
