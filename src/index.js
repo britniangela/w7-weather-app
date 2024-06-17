@@ -33,15 +33,16 @@
 
 // let searchFormElement = document.querySelector("#search-form");
 // searchFormElement.addEventListener("submit", handleSearchSubmit);
-
-function getCelsiusTemperature(event) {
+function getFahrenheitTemperature(event) {
   event.preventDefault();
-  units = "metric";
+  units = "imperial";
   searchCity(lastSearchedCity);
 }
 
-let celsiusTemperature = document.querySelector("#app-temperature-unit");
-celsiusTemperature.addEventListener("click", getCelsiusTemperature);
+let fahrenheitTemperature = document.querySelector(
+  "#app-temperature-fahrenheit-unit"
+);
+fahrenheitTemperature.addEventListener("click", getFahrenheitTemperature);
 
 function getWeather(response) {
   let temperatureElement = document.querySelector("#app-temperature-value");
