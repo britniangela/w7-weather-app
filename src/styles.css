@@ -93,6 +93,10 @@ a {
   color: #2a69a8;
 }
 
+.disabled {
+  color: gray;
+}
+
 footer {
   border-top: 1px solid #e4e4e4;
   padding: 20px 0 0 0;
