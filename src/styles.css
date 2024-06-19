@@ -73,20 +73,21 @@ a {
 }
 
 .app-temperature-icon {
-  font-size: 45px;
-  margin-top: 20px;
+  width: 85px;
+  height: 85px;
 }
 
 .app-temperature-value {
   font-size: 85px;
   font-weight: 400;
-  margin-left: 20px;
+  margin-left: 10px;
+  line-height: 1;
 }
 
 .app-temperature-unit {
   font-size: 22px;
   font-weight: 400;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .celsius-unit {
