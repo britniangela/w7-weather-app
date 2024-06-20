@@ -101,8 +101,12 @@ a {
   margin-top: 10px;
 }
 
+.vertical-bar {
+  color: #0b2447;
+}
+
 .celsius-unit {
-  color: rgb(81, 81, 81);
+  color: #0b2447;
 }
 
 .disabled {
@@ -111,7 +115,7 @@ a {
 
 footer {
   border-top: 1px solid #e4e4e4;
-  padding: 20px 0 0 0;
+  padding: 10px 0px 0px 0px;
   text-align: center;
   color: #656565;
 }
